@@ -1,0 +1,53 @@
+body{
+    background-image: url("ftt.jpg");
+    text-align: center;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
+  div{
+    display: flex;
+    justify-content: center;
+    float: center;
+  }
+
+  .city{
+    background-color: purple;
+    color: white;
+  
+    margin: 20px;
+    padding: 30px;
+  }
+   
+
+   div{
+    display: flex;
+    justify-content: center;
+    float: center;
+   }
+
+   a:hover {
+    color: rgb(38, 2, 57);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:link, a:visited {
+    background-color: #7b1381;
+    font-family: serif;
+    color: rgb(217, 227, 229);
+    padding: 30px 300px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 100px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display: inline-block;
+    width: 250px;
+    border: 6px solid rgb(139, 62, 193);
+  }
+  
+  a:hover, a:active {
+    background-color: rgb(67, 16, 78);
+  }

@@ -1,0 +1,129 @@
+<meta charset="utf-8">
+<html>
+  <head>
+    <link rel="stylesheet" href="estilos.css">
+  
+  <h1>MODELO OSI </h1>
+ <main>
+      
+    <li><a href="#modelo">MODELO TCP/IP</a></li>
+		  <li><a href="#udp">UDP</a></li>
+		   <li><a href="#ftp">FTP</a></li>
+		    <li><a href="#dns">DNS</a></li>
+            <li><a href="#dhcp">DHCP</a></li>
+		  <li><a href="#https">HTTP/HTTPS</a></li>
+		   <li><a href="#web">WEBSERVER</a></li>
+ </main>
+  </head>
+		   
+    <div class="city">
+        
+        <section id="modelo">
+            <p style="font-size:100px">&#127761	</p>
+            <h1>MODELO TCP/IP</h1>
+            <p>Arquitetura TCP/IP é um conjunto de protocolos de comunicação entre computadores em rede que se caracteriza pela definição de um modelo padrão de camadas para implementação na arquitetura de rede. Com objetivo semelhante ao do modelo OSI no que diz respeito à divisão da arquitetura em camadas, o TCP/IP consiste na junção dos protocolos TCP (Transmission Control Protocol – Protocolo de Controle de Transmissão) e o IP (Internet Protocol – Protocolo de Inter-rede), dois dos mais utilizados. Neste artigo você vai conhecer um pouco mais sobre este conjunto de protocolos, seus conceitos básicos e entender a importância deles para atuar com a segurança de redes. A camada de aplicação é o topo da arquitetura TCP/IP, tratada de forma monolítica, onde são realizadas a maior parte das requisições para execução de tarefas na rede. Ela faz a comunicação entre os programas e os protocolos de transporte e é responsável por tudo que está relacionado aos serviços de comunicação que visam a interação junto ao usuário. Dentro da camada de aplicação são utilizados alguns dos seguintes protocolos:
+                TELNET (Terminal Virtual);
+                FTP (File Transfer Protocol);
+                SMTP (Send Mail Transfer Protocol);
+                DNS (Domain Name System);
+                HTTP (Hypertext Transfer Protocol).
+            </p>
+        </section>
+        </div>
+        <div class="city">
+     
+            <section id="udp">
+                <p style="font-size:100px">&#127768	</p>
+                <h1>UDP</h1>
+                <p>O User Datagram Protocol (UDP) é um protocolo de Internet mais simples e sem conexão, no qual os serviços de verificação e recuperação de erros não são necessários. Com o UDP, não há sobrecarga para abrir, manter ou encerrar uma conexão — os dados são continuamente enviados para o destinatário, quer ele os receba ou não.
+
+                    Como cada um funciona?
+                    TCP e UDP são protocolos da camada de transporte e são usados de acordo com os requisitos do sistema. Isso fica claro na forma como cada um funciona. O protocolo UDP funciona de forma semelhante ao TCP, mas elimina todo o material de verificação de erros. Toda a comunicação de ida e volta introduz latência, tornando as coisas mais lentas.
+
+                    Quando um aplicativo usa UDP, os pacotes são enviados apenas para o destinatário. O remetente não espera para ter certeza de que o destinatário recebeu o pacote. Se o destinatário perder alguns pacotes UDP aqui e ali, o remetente não os reenviará. Perder toda essa sobrecarga significa que os dispositivos podem se comunicar mais rapidamente.
+                    
+                    UDP é usado quando a velocidade é desejável e a correção de erros não é necessária. Por exemplo, ele é frequentemente usado para transmissões ao vivo e jogos online. Digamos que você esteja assistindo a um stream de vídeo ao vivo, que geralmente é transmitido usando UDP em vez de TCP. O servidor apenas envia um fluxo constante de pacotes UDP para os computadores que estão assistindo.
+                    
+                    Se você perder a conexão por alguns segundos, o vídeo pode congelar ou ficar trêmulo por um momento e, em seguida, pular para o trecho atual da transmissão. Se ocorrer uma pequena perda de pacote, o vídeo ou áudio pode ficar distorcido por um momento, pois o vídeo continua a ser reproduzido sem os dados ausentes.</p>
+            </section>
+            </div>
+            <div class="city">
+                <section id="ftp">
+                    <p style="font-size:100px">&#127767	</p>
+                    <h1>FTP</h1>
+                    <p>A sigla FTP significa File Transfer Protocol ou Protocolo de Transferência de Arquivos. Esse protocolo é uma forma de comunicação entre computadores que usam o TCP/IP, que é o protocolo padrão de comunicação da web.
+
+                        O protocolo FTP permite que usuários autorizados possam fazer download e upload de arquivos de um servidor FTP, um computador que armazena os dados. Dessa forma, o FTP facilita a transferência de informações entre diferentes dispositivos.Existem três abordagens na hora de se estabelecer uma conexão FTP. Um método bastante simples é usando um FTP de linha de comando, como é o caso do Command Prompt do Windows ou do Terminal de Mac e Linux. Muitos desenvolvedores usam esse método até hoje na hora de transferir arquivos via protocolo FTP.Também é possível usar um navegador para se comunicar com o servidor FTP. Um navegador é uma opção mais conveniente quando os usuários querem acessar grandes diretórios no servidor. Apesar disso, esse método geralmente é menos confiável e mais lento do que usar um programa FTP dedicado.</p>
+                </section>
+                </div>
+                <div class="city">
+                    <section id="dns">
+                        <p style="font-size:100px">&#127766		</p>
+                        <h1>DNS</h1>
+                        <p>DNS que permite que você digite o nome de um domínio, como tecnoblog.net na barra de endereços, em vez de uma longa sequência de números difícil de decorar.
+
+                            Em termos simples, o Sistema de Nomes de Domínio (DNS) é uma coleção de bancos de dados que traduz nomes de host para endereços únicos de IP.
+                            
+                            Vamos lá, existem duas formas de acessar um site na internet: digitando o nome de domínio que você já está acostumado ou digitando o endereço IP da sua hospedagem.
+                            
+                            É lógico que digitar a sequência de números no navegador toda vez que você quiser visitar um site não faz sentido, então DNS faz o trabalho de tradução desse endereço em palavras, que formam a URL que você conhece, no endereço IP do servidor.
+                            
+                            Cada nome de domínio tem um único número IP e você não verá mais de um site com a mesma URL. Porém, nomes de domínios diferentes podem encaminhar você de um site para outro. Basta que o responsável compre o direito de usar todos ao mesmo tempo.
+                            
+                            Não importa se digitar tecnoblog.net ou tecnoblog.com.br, ambos levarão você ao à versão “.net”. Isso acontece porque o “.com.br” direciona para o “.net”, que leva ao IP.</p>
+                    </section>
+                    </div>
+                    <div class="city">
+                        <section id="dhcp">
+                            <p style="font-size:100px">&#127773	</p>
+                            <h1>DHCP</h1>
+                            <p>O High-bandwidth Digital Content Protection (HDCP), ou Proteção de Conteúdo Digital em Banda Larga, em tradução livre, é uma solução desenvolvida para impedir a cópia ilegal de mídias de alta definição, como filmes em Blu-Ray ou conteúdo exibido por serviços de streaming. Basicamente, trata-se de um recurso para impedir a pirataria.
+
+                                A tecnologia foi criada originalmente por engenheiros da Intel em 1990, mas acabou sendo amplamente adotada pela indústria nos anos seguintes, ganhando ainda mais importância recentemente, com o surgimento de plataformas como Netflix, Disney Plus e HBO Max.
+                                
+                                Aqueles que gostam de jogar podem identificar o HDCP como um parente distante focado em mídia não interativa do Denuvo, outro método antipirataria bastante comum no mundo dos games.</p>
+                        </section>
+                        </div>
+                        <div class="city">
+                            <section id="https">
+                                <p style="font-size:100px">&#127774	</p>
+                                <h1>HTTP/HTTPS</h1>
+                                <p>As comunicações em uma rede são feitas por um conjunto de regras e procedimentos chamadas de protocolo Link. O protocolo HTTP, Hypertext Transfer Protocol, foi inicialmente desenvolvido para permitir a comunicação com um servidor web, a princípio, o método existente era apenas o de “pegar” (GET) o conteúdo de um servidor. Agora, ao invés de analisar um site “Não seguro”, isto é com o protocolo HTTP, faremos a análise em um site “Seguro” que trabalha com o HTTPS.
+
+                                    Nesse nosso exemplo, consideraremos a página de login da Alura usando os mesmos dados que usamos na aplicação que estava usando o HTTP. Vejamos o resultado: O HTTPS fez uma transformação nesses dados que foi enviado pelo cliente e com isso não foi possível descobrir os dados enviados pela vítima. Essa tranformação de um dado que acaba por ser incompreensível por nós humanos caracterizamos como um processo de criptografia. Analisando o nome do protocolo HTTP, vemos que se trata de um protocolo para transferência de texto, dessa forma, os dados e senha do cartão de crédito são passados como um texto para o servidor também!
+
+                                    Isso significa que, se caso alguém analisar essas informações será capaz de ver quais são os dados e senha do cartão de crédito. Portanto, quaisquer aplicações web que usam o protocolo HTTP e precisam passar dados sensíveis, possuem uma vulnerabilidade para o cliente final.</p>
+                            </section>
+                            </div>
+                            <div class="city">
+                                <section id="web">
+                                    <p style="font-size:100px">&#127774</p>
+                                    <h1>WEBSERVER</h1>
+                                    <p>Um web server é um sistema computacional que hospeda e fornece acesso aos conteúdos e aplicações através da internet. Geralmente contratado como um serviço, esse servidor recebe e processa as solicitações feitas por navegadores através de protocolos de rede como o HTTP ou HTTPS.
+
+                                        Um servidor que presta esse tipo de serviço pode ser um computador físico ou instância de um datacenter, que armazena e disponibiliza o conteúdo para ser acessado por meio da internet.
+                                        
+                                        Esse acesso geralmente é feito por computadores e dispositivos móveis através de solicitações feitas por browsers, ou seja, softwares navegadores como o Google Chrome e Microsoft Edge.
+                                        
+                                        Essas solicitações incluem o endereço do conteúdo desejado, como por exemplo uma página HTML, um arquivo de áudio, vídeo ou imagem.
+                                        
+                                        Os servidores web são responsáveis por hospedar sites, aplicativos, serviços de e-mail, armazenamento em nuvem e outros serviços online. Os principais recursos de um servidor de internet podem variar de acordo com o tipo e a configuração do servidor em questão, mas em geral incluem:
+
+                                        Receber e processar solicitações HTTP: Um servidor web é responsável por receber as solicitações dos clientes (navegadores) e processá-las de acordo com as configurações pré-estabelecidas.
+                                        
+                                        Servir conteúdo estático e dinâmico: Esses servidores podem ser configurados para hospedar conteúdo estático, como arquivos HTML, imagens e arquivos CSS, bem como conteúdo dinâmico, ou seja, dados gerados a partir de interações do usuário com aplicações como um ERP ou CRM.
+                                        
+                                        Gerenciamento de sessões e cookies: Um web server pode armazenar informações sobre as sessões de cada usuário e gerenciar o uso de cookies para fornecer uma experiência personalizada e segura.
+                                        
+                                        Autenticação e autorização: Esses sistemas podem ser configurado para verificar a identidade, autorizar ou negar o acesso a determinados recursos com base nas permissões atribuídas a cada usuário.
+                                        
+                                        Compatibilidade a diferentes tecnologias e linguagens de programação: Um servidor web é compatível com diferentes protocolos e tecnologias, como SSL para conexões seguras, HTTP/2 para melhor desempenho e suportar várias linguagens de programação como o PHP, Python, Java ou Ruby.
+                                        
+                                        Monitoramento e gerenciamento de recursos: Um servidor pode fornecer ferramentas para monitorar o uso de recursos de hardware e software como a CPU, memória, armazenamento e aplicativos, gerenciando tudo para garantir um bom desempenho.</p>
+                                </section>
+                            </div>
+    </main>
+  </body>
+  </html>
+ 
+ 
